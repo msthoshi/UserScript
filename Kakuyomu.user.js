@@ -4,12 +4,13 @@
 // @version      2025-07-05
 // @description  Kakuyomu User JavaScript
 // @author       Yuyushiki
+// @homepageURL  https://github.com/msthoshi/UserScript
+// @supportURL   https://github.com/msthoshi/UserScript
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
 // @match        https://kakuyomu.jp/works/*/episodes/*
 // @icon         https://cdn-static.kakuyomu.jp/images/brand/favicons/favicon.ico
 // @grant        none
-// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
-// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
