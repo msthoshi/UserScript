@@ -4,12 +4,13 @@
 // @version      2025-06-29
 // @description  Gouki Imege Arrange
 // @author       yuyushiki
+// @homepageURL  https://github.com/msthoshi/UserScript
+// @supportURL   https://github.com/msthoshi/UserScript
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
 // @match        https://ip1.imgbbs.jp/read7/gouki/*
 // @icon         https://ip1.imgbbs.jp/read7/gouki/imgup/title.jpg
 // @grant        none
-// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
-// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
