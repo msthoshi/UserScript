@@ -9,7 +9,7 @@
 // @grant        none
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
-// @supportURL   https://github.com/msthoshi/UserScript/
+// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
