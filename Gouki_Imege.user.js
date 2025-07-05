@@ -2,7 +2,7 @@
 // @name         Gouki Imege
 // @namespace    http://tampermonkey.net/
 // @version      2025-06-29
-// @description  gouki Imege Arrange
+// @description  Gouki Imege Arrange
 // @author       yuyushiki
 // @match        https://ip1.imgbbs.jp/read7/gouki/*
 // @icon         https://ip1.imgbbs.jp/read7/gouki/imgup/title.jpg
