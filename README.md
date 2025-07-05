@@ -1,2 +1,2 @@
-# user.js
-UserScript
+# UserScript
+UserScript Files
