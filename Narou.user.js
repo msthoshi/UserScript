@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         Narou JS
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/msthoshi/UserScript
 // @version      2025-07-05
 // @description  Narou User JavaScript
 // @author       Yuyushiki
 // @match        https://ncode.syosetu.com/*/*/
 // @icon         https://static.syosetu.com/view/images/narou.ico
 // @grant        none
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
+// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
