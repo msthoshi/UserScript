@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Gouki Imege
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/msthoshi/UserScript
 // @version      2025-06-29
 // @description  Gouki Imege Arrange
 // @author       yuyushiki
