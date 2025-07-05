@@ -4,12 +4,13 @@
 // @version      2025-06-29
 // @description  WikiPedia Notice Delete.
 // @author       Yuyushiki
+// @homepageURL  https://github.com/msthoshi/UserScript
+// @supportURL   https://github.com/msthoshi/UserScript
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/WikiPedia_Notice_Delete.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/WikiPedia_Notice_Delete.user.js
 // @match        https://ja.wikipedia.org/wiki/*
 // @icon         https://ja.wikipedia.org/static/favicon/wikipedia.ico
 // @grant        none
-// @updateURL    https://github.com/msthoshi/UserScript/raw/main/WikiPedia_Notice_Delete.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/WikiPedia_Notice_Delete.user.js
-// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
