@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sankaku Ad Block
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-06-29
+// @version      2025-07-05
 // @description  Sankaku Ad Block
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
