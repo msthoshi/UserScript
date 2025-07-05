@@ -4,12 +4,13 @@
 // @version      2025-06-29
 // @description  Sankaku Ad Block
 // @author       Yuyushiki
-// @match        https://chan.sankakucomplex.com/ja/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=sankakucomplex.com
-// @grant        none
+// @homepageURL  https://github.com/msthoshi/UserScript
+// @supportURL   https://github.com/msthoshi/UserScript
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Sankaku_Ad_Block.user.js
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Sankaku_Ad_Block.user.js
-// @supportURL   https://github.com/msthoshi/UserScript
+// @match        https://chan.sankakucomplex.com/ja/*
+// @icon         https://chan.sankakucomplex.com/images/favicon.png
+// @grant        none
 // ==/UserScript==
 
 (function() {
