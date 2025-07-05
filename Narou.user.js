@@ -4,12 +4,13 @@
 // @version      2025-07-05
 // @description  Narou User JavaScript
 // @author       Yuyushiki
+// @homepageURL  https://github.com/msthoshi/UserScript
+// @supportURL   https://github.com/msthoshi/UserScript
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
 // @match        https://ncode.syosetu.com/*/*/
 // @icon         https://static.syosetu.com/view/images/narou.ico
 // @grant        none
-// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
-// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
