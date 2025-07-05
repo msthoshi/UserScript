@@ -7,8 +7,8 @@
 // @match        https://ip1.imgbbs.jp/read7/gouki/*
 // @icon         https://ip1.imgbbs.jp/read7/gouki/imgup/title.jpg
 // @grant        none
-// @updateURL    https://github.com/msthoshi/UserScript/raw/master/Gouki_Imege.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/master/Gouki_Imege.user.js
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
 // @supportURL   https://github.com/msthoshi/UserScript/
 // ==/UserScript==
 
