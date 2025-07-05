@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         gouki Imege
+// @name         Gouki Imege
 // @namespace    http://tampermonkey.net/
 // @version      2025-06-29
 // @description  gouki Imege Arrange
