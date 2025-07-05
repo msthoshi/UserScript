@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         Kakuyomu JS
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/msthoshi/UserScript
 // @version      2025-07-05
 // @description  Kakuyomu User JavaScript
 // @author       Yuyushiki
 // @match        https://kakuyomu.jp/works/*/episodes/*
 // @icon         https://cdn-static.kakuyomu.jp/images/brand/favicons/favicon.ico
 // @grant        none
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
+// @supportURL   https://github.com/msthoshi/UserScript
 // ==/UserScript==
 
 (function() {
