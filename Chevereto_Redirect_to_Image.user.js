@@ -8,7 +8,8 @@
 // @supportURL   https://github.com/msthoshi/UserScript
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Chevereto_Redirect_to_Image.user.js
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Chevereto_Redirect_to_Image.user.js
-// @match        https://picturexxx.space/*
+// @match        https://picturexxx.space/image/*
+// @match        https://pixxxar.com/image/*
 // @icon         https://chevereto.com/app/themes/v3/img/favicon.png
 // @grant        none
 // ==/UserScript==
