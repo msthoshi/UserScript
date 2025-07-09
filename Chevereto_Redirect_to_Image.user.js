@@ -14,12 +14,16 @@
 // ==/UserScript==
 
 (function() {
-    var element;
+    var strURL, element;
+    strURL = '';
     element = document.querySelector('div#image-viewer > img');
     if (element){
-        window.location.href = element.src.replace(/\.md\./,'.');
+        strURL = element.src;
     } else {
-        element = document.querySelector("div#image-viewer-container > img");
-        window.location.href = element.src.replace(/\.md\./,'.');
+        element = document.querySelector('div#image-viewer-container > img');
+        if (element){
+            strURL = element.src;
+        }
     }
+    if (strURL) window.location.href = strURL.replace(/\.md\./,'.');
 })();
