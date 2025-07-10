@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chevereto Redirect to Image
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-07-09
+// @version      2025-07-10
 // @description  Chevereto Redirect to Image
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -12,6 +12,7 @@
 // @match        https://pixxxar.com/image/*
 // @icon         https://chevereto.com/app/themes/v3/img/favicon.png
 // @grant        none
+// @run-at       document-body
 // ==/UserScript==
 
 (function() {
