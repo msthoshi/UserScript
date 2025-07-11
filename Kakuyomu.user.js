@@ -48,7 +48,7 @@
         var strTemp;
         strTemp = strHtml.replace(/[！？]{2,}|[０-９]{2,}/g, function(match){
             return(((/^(?:！！！|[！？]{2}|[０-９]{2})$/).test(match) || (/^(?:ｉｉ|ｉｉｉ|ｉｖ|ｖｉ|ｖｉｉ|ｖｉｉｉ|ｉｘ|ｘｉ|ｘｉｉ|ｘｉｉｉ|ＩＩ|ＩＩＩ|ＩＶ|ＶＩ|ＶＩＩ|ＶＩＩＩ|ＩＸ|ＸＩ|ＸＩＩ|ＸＩＩＩ)$/).test(match)) ? toHalfWidth(match) : match);
-        }).replace(/[0-9a-zA-Z#\$%&\\\!\?\/]+/g, function(match){
+        }).replace(/[0-9a-zA-Z#\$%&\\\!\?\/\,\.\-\+\*\=\:\;\^\@]+/g, function(match){
             var str;
             if (match.length == 1 || (/^(?:\!\!\!|[\!\?]{1,2}|[0-9]{1,2}|)$/).test(match) || (/^(?:ii|iii|iv|vi|vii|viii|ix|xi|xii|xiii)$/i).test(match)){
                 str = '<span class="tcy">' + match +'</span>';
