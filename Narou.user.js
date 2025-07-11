@@ -103,13 +103,13 @@
         document.querySelector('h1.p-novel__title').innerHTML = arrHtml.join('');
     }
 
-    arrHtml = document.querySelector('div.p-novel__text').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
+    arrHtml = document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
     if (arrHtml.length > 0){
         for (i=0; i < arrHtml.length; i++){
             if (arrHtml[i].indexOf('<') == -1){
                 arrHtml[i] = ReplaceHtml(arrHtml[i]);
             }
         }
-        document.querySelector('div.p-novel__text').innerHTML = arrHtml.join('');
+        document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML = arrHtml.join('');
     }
 })();
