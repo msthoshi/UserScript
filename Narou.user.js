@@ -86,7 +86,7 @@
                 }
             }
             return(str);
-        }).replace(/([^\x01-\x7E])[゛ﾞ]/g,'<span class="tcy">$1\u3099</span>').replace(/([^\x01-\x7E])[゜ﾟ]/g,'<span class="tcy">$1\u309A</span>');
+        }).replace(/([^\x01-\x7E])[゛ﾞ]/g,'<span class="tcy">$1\u3099</span>').replace(/([^\x01-\x7E])[゜ﾟ]/g,'<span class="tcy">$1\u309A</span>').replace(/°/g,'度');
         return(strTemp);
     }
     var arrHtml, i, element1, element2;
