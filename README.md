@@ -11,6 +11,8 @@ https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Chevereto
 
 https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Javbee.user.js
 
+https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_firm.user.js
+
 https://github.com/msthoshi/UserScript/raw/main/Sankaku_Ad_Block.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/WikiPedia_Notice_Delete.user.js
