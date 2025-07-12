@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Chevereto Redirect to Image
+// @name         Redirect to Image from Chevereto
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-07-10
-// @description  Chevereto Redirect to Image
+// @version      2025-07-12T15:58:00
+// @description  Redirect to Image from Chevereto
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
 // @supportURL   https://github.com/msthoshi/UserScript
-// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Chevereto_Redirect_to_Image.user.js
-// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Chevereto_Redirect_to_Image.user.js
+// @updateURL    https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Chevereto.user.js
+// @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Chevereto.user.js
 // @match        https://picturexxx.space/image/*
 // @match        https://pixxxar.com/image/*
 // @icon         https://chevereto.com/app/themes/v3/img/favicon.png
