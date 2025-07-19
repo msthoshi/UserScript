@@ -3,7 +3,7 @@
 // @namespace    https://github.com/msthoshi/UserScript
 // @version      2025-07-19T12:03:00
 // @description  Redirect to Image from firm
-// @author       yuyushiki
+// @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
 // @supportURL   https://github.com/msthoshi/UserScript
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_firm.user.js
