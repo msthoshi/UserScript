@@ -1,6 +1,8 @@
 # UserScript
 UserScript Files
 
+https://github.com/msthoshi/UserScript/raw/main/FileName_Auto_Copy_in_E-Hentai_Galleries.user.js
+
 https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
