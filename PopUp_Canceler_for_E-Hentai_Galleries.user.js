@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PopUp Canceler for E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-07-20T15:14:00
+// @version      2025-08-08T10:48:00
 // @description  PopUp Canceler for E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -14,4 +14,14 @@
 // @grant        none
 // ==/UserScript==
 
-popUp = function (){return(false);}
+popUp = function (URL, w, h){
+    var arrMatch, element;
+    arrMatch = URL.match(/gid=(\d+)&t=/);
+    if (arrMatch){
+        element = document.getElementById('posted_' + arrMatch[1]);
+        if (element){
+            navigator.clipboard.writeText(element.innerHTML);
+        }
+    }
+    return(false);
+}
