@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kakuyomu JS
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-09-08T15:55:00
+// @version      2025-09-08T21:27:00
 // @description  Kakuyomu User JavaScript
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -92,6 +92,16 @@
     var arrHtml, i;
 
     window.addEventListener('keydown', fe, false);
+
+    arrHtml = document.querySelector('header#contentMain-header > p.widget-episodeTitle.js-vertical-composition-item').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
+    if (arrHtml.length > 0){
+        for (i=0; i < arrHtml.length; i++){
+            if (arrHtml[i].indexOf('<') == -1){
+                arrHtml[i] = ReplaceHtml(arrHtml[i]);
+            }
+        }
+        document.querySelector('header#contentMain-header > p.widget-episodeTitle.js-vertical-composition-item').innerHTML = arrHtml.join('');
+    }
 
     arrHtml = document.querySelector('div.widget-episodeBody.js-episode-body').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
     if (arrHtml.length > 0){
