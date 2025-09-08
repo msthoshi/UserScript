@@ -1,17 +1,13 @@
 # UserScript
 UserScript Files
 
-https://github.com/msthoshi/UserScript/raw/main/FileName_Auto_Copy_in_E-Hentai_Galleries.user.js
+https://github.com/msthoshi/UserScript/raw/main/E-Hentai_Galleries.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Gouki_Imege.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Kakuyomu.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
-
-https://github.com/msthoshi/UserScript/raw/main/Object_Hidden_for_E-Hentai_Galleries.user.js
-
-https://github.com/msthoshi/UserScript/raw/main/PopUp_Canceler_for_E-Hentai_Galleries.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Chevereto.user.js
 
