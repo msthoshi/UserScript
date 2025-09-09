@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kakuyomu JS
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-09-08T21:27:00
+// @version      2025-09-09T13:46:00
 // @description  Kakuyomu User JavaScript
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -24,16 +24,16 @@
                 document.querySelector('#worksEpisodesEpisodeHeader-closeButton > a').click();
             } else if (event.code == 'ArrowLeft'){
                 event.preventDefault();
-                document.querySelector('div.widget-episodeBody.js-episode-body').scrollBy({top: 0, left: -parseFloat(window.getComputedStyle(document.querySelector('div.widget-episodeBody.js-episode-body')).getPropertyValue('line-height'))*2, behavior: 'smooth'});
+                document.querySelector('div#contentMain-inner').scrollBy({top: 0, left: -parseFloat(window.getComputedStyle(document.querySelector('div#contentMain-inner')).getPropertyValue('line-height'))*2, behavior: 'smooth'});
             } else if (event.code == 'ArrowRight'){
                 event.preventDefault();
-                document.querySelector('div.widget-episodeBody.js-episode-body').scrollBy({top: 0, left: parseFloat(window.getComputedStyle(document.querySelector('div.widget-episodeBody.js-episode-body')).getPropertyValue('line-height'))*2, behavior: 'smooth'});
+                document.querySelector('div#contentMain-inner').scrollBy({top: 0, left: parseFloat(window.getComputedStyle(document.querySelector('div#contentMain-inner')).getPropertyValue('line-height'))*2, behavior: 'smooth'});
             } else if (event.code == 'Space' && !event.shiftKey){
                 event.preventDefault();
-                document.querySelector('div.widget-episodeBody.js-episode-body').scrollBy({top: 0, left: parseFloat(window.getComputedStyle(document.querySelector('div.widget-episodeBody.js-episode-body')).getPropertyValue('line-height')) * 3 - document.documentElement.clientWidth, behavior: 'smooth'});
+                document.querySelector('div#contentMain-inner').scrollBy({top: 0, left: parseFloat(window.getComputedStyle(document.querySelector('div#contentMain-inner')).getPropertyValue('line-height')) * 3 - document.documentElement.clientWidth, behavior: 'smooth'});
             } else if (event.code == 'Space' && event.shiftKey){
                 event.preventDefault();
-                document.querySelector('div.widget-episodeBody.js-episode-body').scrollBy({top: 0, left: document.documentElement.clientWidth - parseFloat(window.getComputedStyle(document.querySelector('div.widget-episodeBody.js-episode-body')).getPropertyValue('line-height')) * 3, behavior: 'smooth'});
+                document.querySelector('div#contentMain-inner').scrollBy({top: 0, left: document.documentElement.clientWidth - parseFloat(window.getComputedStyle(document.querySelector('div#contentMain-inner')).getPropertyValue('line-height')) * 3, behavior: 'smooth'});
             }
         }
     }
