@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Narou JS
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-09-08T15:52:00
+// @version      2025-09-12T18:10:00
 // @description  Narou User JavaScript
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
 // @supportURL   https://github.com/msthoshi/UserScript
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
+// @match        https://ncode.syosetu.com/*/
 // @match        https://ncode.syosetu.com/*/*/
 // @icon         https://static.syosetu.com/view/images/narou.ico
 // @grant        none
@@ -89,27 +90,34 @@
         }).replace(/([^\x01-\x7E])[゛ﾞ]/g,'<span class="tcy">$1\u3099</span>').replace(/([^\x01-\x7E])[゜ﾟ]/g,'<span class="tcy">$1\u309A</span>').replace(/°/g,'度');
         return(strTemp);
     }
-    var arrHtml, i, element1, element2;
 
-    window.addEventListener('keydown', fe, false);
-
-    arrHtml = document.querySelector('h1.p-novel__title').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
-    if (arrHtml.length > 0){
-        for (i=0; i < arrHtml.length; i++){
-            if (arrHtml[i].indexOf('<') == -1){
-                arrHtml[i] = ReplaceHtml(arrHtml[i]);
-            }
+    var arrHtml, i, element;
+    if ((/^https?:\/\/ncode\.syosetu\.com\/n\d+[a-z]+\/$/).test(document.URL) && document.getElementsByClassName('p-novel__body')){
+        element = document.getElementsByClassName('p-novel__body');
+        if (element && element.length > 0){
+            window.location.href = document.URL + '#';
         }
-        document.querySelector('h1.p-novel__title').innerHTML = arrHtml.join('');
-    }
+    } else if ((/^https?:\/\/ncode\.syosetu\.com\/n\d+[a-z]+\/(?:\d+\/|[\?#])$/).test(document.URL)){
+        window.addEventListener('keydown', fe, false);
 
-    arrHtml = document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
-    if (arrHtml.length > 0){
-        for (i=0; i < arrHtml.length; i++){
-            if (arrHtml[i].indexOf('<') == -1){
-                arrHtml[i] = ReplaceHtml(arrHtml[i]);
+        arrHtml = document.querySelector('h1.p-novel__title').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
+        if (arrHtml.length > 0){
+            for (i=0; i < arrHtml.length; i++){
+                if (arrHtml[i].indexOf('<') == -1){
+                    arrHtml[i] = ReplaceHtml(arrHtml[i]);
+                }
             }
+            document.querySelector('h1.p-novel__title').innerHTML = arrHtml.join('');
         }
-        document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML = arrHtml.join('');
+
+        arrHtml = document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
+        if (arrHtml.length > 0){
+            for (i=0; i < arrHtml.length; i++){
+                if (arrHtml[i].indexOf('<') == -1){
+                    arrHtml[i] = ReplaceHtml(arrHtml[i]);
+                }
+            }
+            document.querySelector('div[class="js-novel-text p-novel__text"]').innerHTML = arrHtml.join('');
+        }
     }
 })();
