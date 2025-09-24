@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Narou JS
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-09-12T18:10:00
+// @version      2025-09-24T13:11:00
 // @description  Narou User JavaScript
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -10,6 +10,8 @@
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
 // @match        https://ncode.syosetu.com/*/
 // @match        https://ncode.syosetu.com/*/*/
+// @match        https://novel18.syosetu.com/*/
+// @match        https://novel18.syosetu.com/*/*/
 // @icon         https://static.syosetu.com/view/images/narou.ico
 // @grant        none
 // ==/UserScript==
@@ -92,12 +94,12 @@
     }
 
     var arrHtml, i, element;
-    if ((/^https?:\/\/ncode\.syosetu\.com\/n\d+[a-z]+\/$/).test(document.URL) && document.getElementsByClassName('p-novel__body')){
+    if ((/^https?:\/\/(?:ncode|novel18)\.syosetu\.com\/n\d+[a-z]+\/$/).test(document.URL) && document.getElementsByClassName('p-novel__body')){
         element = document.getElementsByClassName('p-novel__body');
         if (element && element.length > 0){
             window.location.href = document.URL + '#';
         }
-    } else if ((/^https?:\/\/ncode\.syosetu\.com\/n\d+[a-z]+\/(?:\d+\/|[\?#])$/).test(document.URL)){
+    } else if ((/^https?:\/\/(?:ncode|novel18)\.syosetu\.com\/n\d+[a-z]+\/(?:\d+\/|[\?#])$/).test(document.URL)){
         window.addEventListener('keydown', fe, false);
 
         arrHtml = document.querySelector('h1.p-novel__title').innerHTML.replace(/(<ruby>[\s\S]*?<\/ruby>|<[^<>]+>)/g, '{split}$1{split}').split('{split}');
