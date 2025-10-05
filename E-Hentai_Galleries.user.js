@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-09-08T22:04:00
+// @version      2025-10-05T17:46:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -47,7 +47,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
         element.style.overflow = 'hidden';
         element.addEventListener('click', ClickElement, false);
     })();
-} else if ((/^https?:\/\/e-hentai\.org\/s\/[0-9a-f]+\/\d+-\d+$/).test(document.URL)){
+} else if ((/^https?:\/\/e-hentai\.org\/s\/[0-9a-f]+\/\d+-\d+(?:\?nl=\d+-\d+)?$/).test(document.URL)){
     (function() {
         var strURL, arrMatch, strFileName;
         function PasteFileName(){
