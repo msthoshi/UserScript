@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-10-05T17:46:00
+// @version      2025-11-27T11:06:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
