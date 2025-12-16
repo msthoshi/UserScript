@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-16T15:43:00
+// @version      2025-12-16T17:33:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -81,6 +81,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '109838811', //Len
             '109914031', //nero
             '109983791|111284084', //METEOR
+            '110509492', //もうそう
             '113736534', //ダークネス
             '114050705', //deal
             '115339062', //こみあい@Dlsite
@@ -366,6 +367,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'FADE',
             'Falpiva|91046770',
             'fatFlyingSheep3|105189373',
+            'feranoiz',
             'FireEggs',
             'Firefly Lover',
             'flax_AI',
@@ -398,6 +400,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'GikoKitune',
             'Ginto(?:AI|ai)',
             'GizGizmGimo',
+            'GMGkaiser',
             'GN320',
             'Gofenix/Dragonicxs',
             'Gog0chan',
@@ -1103,6 +1106,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ウララ先生',
             'えむすたでぃお',
             'エロエロ研究会',
+            'エロ草|109552994',
             'お姉さん 【(?:GOLD|SILVER)】',
             '^かーむ ',
             'かたい棒 Hard Stick',
