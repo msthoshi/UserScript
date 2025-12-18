@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-18T17:12:00
+// @version      2025-12-18T23:01:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -114,6 +114,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Ace火神',
             'action-star',
             'Adam Eva',
+            'Adapromina Ai',
             'Adeline|艾德琳',
             '^adnis |\\[adnis\\]',
             'Adramahlihk',
@@ -313,6 +314,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'cugp5343|114480180',
             'Custom Firingu X',
             'CunnyFunky',
+            'CWinterhowl|108909487',
             'Cyb3rD3votion',
             'Cyber-Wifu',
             'CZYH',
@@ -628,6 +630,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Meteor (?:0[1-9]|1[012])\\.(?:0[1-9]|[12]\\d|3[01]) ',
             'MeuStar',
             'Mia Milanová',
+            'Mia_Garcia Lewd pack',
             'Miah2d',
             'midmimicry',
             'Mika157/Bunnynavia',
@@ -672,6 +675,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Myaicrush',
             'Myanu',
             'MylieAI',
+            '^Nahito |\\[Nahito\\]',
             'Nakanaka [Nn]ana',
             'Nakatori',
             'NAKS',
@@ -810,6 +814,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '^rei ',
             'ReiNa',
             'Remux',
+            'Renbocloud',
             'ReverendGreatLove',
             'Revy Neon',
             'riko_77|118090769',
@@ -842,6 +847,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Satou Aikoukai|砂糖愛好会',
             'SAWAHEBI 蛇',
             '^Sayaka [\\s\\S]+ \\(Patreon\\)|\\[Sayaka\\]',
+            'Sayuri AI',
             'Sbookner',
             'Sbwaifus',
             'Scallion flavor|92527277',
@@ -913,6 +919,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'subcharalove',
             '[Ss]ub [Kk]ing',
             'SukiyakiNeko',
+            'Suky-Tu',
             'SultrySpark',
             'syafu_AI',
             's\\.h\\.t|11751692',
@@ -985,6 +992,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Vim Brigant',
             'Virijir720',
             'VirusB90',
+            'Vlen',
             'VoidMen',
             'Vrty',
             'VvtD',
@@ -1029,6 +1037,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Yoru akubi shōtai|夜あくび小隊',
             'YORU NEKO|Yoru[Nn]eko',
             '(?:^| )yoshi ',
+            'YugenQq',
             'YuinaJoy',
             '^Yukina |Yukina [\\s\\S]+ \\(Patreon\\)',
             'Yukines',
@@ -1039,6 +1048,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '^yuyu ',
             'Yuzuponz \\(Rikka Kai\\)',
             'yygg',
+            'Z_F|107669902',
             'zaidxxxart',
             'Zcqrlet',
             'Zdemian',
@@ -1120,6 +1130,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '\\[Sion\\]',
             '\\[Sukesuke\\]',
             '\\[Sulfur\\]',
+            '\\[Sunny\\]',
             '\\[tamagoyaki\\]',
             '\\[Tamayuki\\]',
             '\\[white album\\]',
@@ -1255,6 +1266,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '零の旅人',
             '失楽園',
             '紫微星|1754968',
+            '哈尔莫尼亚|28366439',
             '上官飞云|92168008',
             '上ポン酢|87623532',
             '私立 ななつ星中',
