@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-18T00:37:00
+// @version      2025-12-18T16:50:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -45,6 +45,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '7458793', //しずくママ
             '8976533', //en
             '9210862', //ゴリゴ
+            '9911223', //Spinoff
             '11261350', //Koni
             '12728952', //lix
             '17696303', //Leca
@@ -56,9 +57,11 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '51177408', //神社
             '70822129', //mi
             '79152651', //Gizen
+            '79408786', //Sumi
             '82986155', //rivet
             '83370956', //AS
             '86380499', //azusa
+            '90652657', //Nahito
             '91609891', //JJ
             '91841855', //kanon
             '92279776', //Stella
@@ -84,6 +87,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '109914031', //nero
             '109983791|111284084', //METEOR
             '110509492', //もうそう
+            '111279032', //黑白
             '113736534', //ダークネス
             '114050705', //deal
             '115339062', //こみあい@Dlsite
@@ -112,6 +116,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Adam Eva',
             'Adeline|艾德琳',
             '^adnis |\\[adnis\\]',
+            'Adramahlihk',
             'AELLOW',
             'Aesaro14',
             'agargreen',
@@ -135,6 +140,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'AI KOR',
             'AI Mckenna Grace',
             'AI Natalie Portman',
+            'AI Player',
             'Ai Porn Work',
             'AI Rachel McAdams',
             'AI Sydney Sweeney',
@@ -185,10 +191,12 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Anh Dang',
             'Anilvl',
             'Animated Perfection AI',
+            'Anime Babes Fucked',
             'AnimeParadise',
             'ANIMMORTAL',
             'Anipai|ANIPAI',
             'Ankake Nameko|餡掛けなめこ',
+            '^Ann - |\\[Ann\\]',
             'Anor Londo',
             'Anto-kun',
             'Aoi/あおい',
@@ -210,6 +218,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '(?:asa|あさ)_034',
             'asastte|138085154',
             'ASDFG-did-lover',
+            'Asimpleningen',
             'Asphyxia',
             'atorieHJ',
             'ATYPO',
@@ -220,6 +229,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ayxgirl|Ayx Girl',
             'Azusa_Yui',
             'AzzAI',
+            'Azzerstudios',
             'BaldSensei',
             'Balecxi',
             'BanAi',
@@ -266,6 +276,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Ca_Mel',
             'CatalystAI',
             'CCCraftA[Ii]|CC Craft A[Ii]',
+            'Celistria',
             'chesuAI|109755784',
             'Chickenbeautiful',
             'chiko_',
@@ -289,6 +300,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Coldenic',
             'Comboappofrice',
             'CometAzur',
+            'COMICアイル',
             'Coolsummer',
             'corntoss',
             'Cottonmilk',
@@ -322,6 +334,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'DioH123',
             'Ditto Seeker',
             'DJ Su',
+            'DKdraven|63847494',
             'Dr\\.Bon',
             'DreamcoreArt',
             'Dogvahkiin',
@@ -403,6 +416,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Gatehacker',
             'Gb_5|92491138',
             'GBFblackDX|109396479',
+            'Generator Kin',
             'Generic_senpAI',
             'GenkiAi',
             'Genova pixiv',
@@ -435,6 +449,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Hammiai',
             'haniodon',
             'harajiro_butakimchi',
+            'HayasakaHentai',
             'Heaven RB',
             'Hedera',
             'HeHeAries',
@@ -558,6 +573,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Libesan2',
             'LigmaSugmadi',
             'Lile\\/リール',
+            'Lillith Inferna Arts',
             'LimbusCompany',
             'Liname',
             'Live[Ff]rog|FrogAI',
@@ -578,6 +594,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Luka45',
             'LunAra',
             'LustBild',
+            'LustStudio Artwork',
             'Lusty ?Nymphi',
             'LuxaArtdios',
             'luzy2525',
@@ -586,6 +603,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'MacArooN',
             '[Mm]achina Ai|112353623',
             'Mackensky',
+            'Magical Magna',
             'Magiskuwa',
             'maiQOS',
             'Mandom3D|MANDOM 3D',
@@ -646,8 +664,8 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'MOCHIPAWG|Mochipawg',
             'MountCre',
             'mpena24',
-            'mrkklab',
-            'Mr(\\. )?Teardrop',
+            'mrkk',
+            'Mr(\\. |\\.)?Teardrop',
             'Mugi \\| むぎ',
             'Murata_san_FANBOX',
             'Myaicrush',
@@ -740,6 +758,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'PISANTO皮三豆',
             'PixelNinjaArt',
             'pixel_overdose',
+            'Pixelated Waifus',
             'PKAI|116877691',
             'Poggerrogger',
             'pokemon e love',
@@ -913,6 +932,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'TheFarAi',
             'TheHypno7ist',
             'TheMaker___',
+            ' Thx |\\[Thx\\]|120662529',
             'Tiger87|タイガー87',
             'Tillian',
             'TipperGoreWasRight',
@@ -1040,6 +1060,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '\\[Calc\\]',
             '\\[chack\\]',
             '\\[coqiaku\\]',
+            '\\[Crimson\\]',
             '\\[Daisy\\]',
             '\\[Darkmagic\\]',
             '\\[Ein\\]',
@@ -1082,6 +1103,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '\\[noroj\\]',
             '\\[NT00 Fans\' Fan-Created Works\\]',
             '\\[Nyc3e\\]',
+            '\\[ofthe\\]',
             '\\[okita\\]',
             '\\[Okreet\\]',
             '\\[Orange\\]',
@@ -1099,7 +1121,6 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '\\[Sulfur\\]',
             '\\[tamagoyaki\\]',
             '\\[Tamayuki\\]',
-            '\\[Thx\\]',
             '\\[white album\\]',
             '\\[yang\\]',
             '\\[Yuuna❤️?\\]',
@@ -1131,6 +1152,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '\\(紫月\\)',
             '【AI自制】',
             '【peng】',
+            '【Yoyu】',
             '【にっか】',
             'あいぶんめい|113642305',
             'アガツマミノル|109662215',
@@ -1171,6 +1193,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ニンニクましお',
             'ぬきのすけ',
             'ねとれや',
+            '^のり子 - |\\[のり子\\]',
             'パニックアメリカ',
             'パパ活バズーカ',
             'ハリー ／ hurry|95578195',
@@ -1217,6 +1240,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '小莉|15406718',
             '少把盐|91270513',
             '黒猫の隠れ家',
+            '原神とかウマ娘とか',
             '墨迹',
             '光怪陆离',
             '黒糖サムライ',
@@ -1277,6 +1301,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '悪い果|104257480',
             '龙蛇仙|104935838',
             '丶黑谷雨泽',
+            '종이구름|39688127',
             '[Ff]utanari',
             '[Cc]ollection'
         ]
