@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-18T16:50:00
+// @version      2025-12-18T17:12:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -164,6 +164,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'aiEgg',
             'AiFantasy',
             'A[Ii]Fish[Bb]all',
+            'AiGirl741',
             'aijuicer',
             'AIlya',
             'AImalin|美少女がキモ男に妊娠させられる',
