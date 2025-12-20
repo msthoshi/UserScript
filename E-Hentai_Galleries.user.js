@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-19T21:21:00
+// @version      2025-12-20T11:54:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -191,6 +191,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'alchy_ai',
             'Allenby',
             'alpha webtoon',
+            'Alucard',
             'AlwaysOlder',
             'Amakawa is reflecting',
             'AmeSketch',
@@ -316,6 +317,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Coolsummer',
             'corntoss',
             'Cottonmilk',
+            'CoxyCat',
             '^Crank',
             'Creamy AI',
             'Cream[Hh]orse|CREAMHORSE',
@@ -516,6 +518,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'IronAIArt',
             'Isterya',
             'ItzzMendo',
+            'IULOW',
             'IWD AI',
             'IzoNyan',
             'Jackchief',
@@ -529,6 +532,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'JoeinPixels',
             'Jonn Cinabonn Jovi',
             'jormunAi',
+            'Juanpi Amvs',
             'JuicePiggy16',
             'Jukujo Kami no Kuroana|熟女神の黒穴',
             'jull123',
@@ -557,6 +561,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'KM KingMaster|KM \\| KingMaster',
             'Koa-san',
             'Kobenibeni \\| Waifus',
+            'Kofelia|119422266',
             '^koharu\\)',
             'koikatsufans',
             'Koina(?:Art|ART)',
@@ -794,6 +799,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'porica800|115176453',
             'Pre-Factory',
             'PriestOfArt',
+            'Primer_ai',
             'Primo Sensei',
             'ProGenArts',
             'prompt filters bypass',
@@ -932,6 +938,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'StasisBBC',
             '[Ss]tefan',
             'stella (?:- |)\\[NSFW\\]',
+            'Stevobeno',
             'Stigmata',
             'STKyrie',
             'STORB',
@@ -964,6 +971,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'terusa [\\s\\S]+ \\(Patreon\\)',
             'The Milk Man',
             'Thebardspirit',
+            'theboobedone',
             'TheFarAi',
             'TheHypno7ist',
             'TheMaker___',
@@ -1041,6 +1049,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'White Studio',
             'WhiteMoon',
             'WhiteSnow211',
+            'WhiteTigerBun',
             'WienerGens',
             'Wingzy',
             'Wisdom Seeker',
@@ -1290,6 +1299,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '黒猫の隠れ家',
             '原神とかウマ娘とか',
             '墨迹',
+            '抗压吧淫魔仙人',
             '光怪陆离',
             '黒糖サムライ',
             '黑白/Kohaku_99999_',
