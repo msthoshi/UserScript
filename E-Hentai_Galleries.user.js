@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-12-26T17:56:00
+// @version      2025-12-27T00:29:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -48,6 +48,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '8976533', //en
             '9210862', //ゴリゴ
             '9911223', //Spinoff
+            '10624601', //misaka
             '11261350', //Koni
             '12728952', //lix
             '15106284', //プじだむの島
@@ -150,6 +151,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'AI Ella Purnell',
             'AI Elle Fanning',
             'AI Emma Darcy',
+            'AI Emmy Rossum',
             'AI Freya Allan',
             'AI Frontier Rev',
             'AI Gigantic Girl',
@@ -218,7 +220,8 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'AlwaysOlder',
             'Amakawa is reflecting',
             'AmeSketch',
-            'An25\\+1|C076－式023',
+            'Amiya_7X1',
+            '[Aa]n25\\+1|C076－式023',
             'AndestanVita042|117458084',
             'Anh Dang',
             'Anilvl',
@@ -470,6 +473,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Fanz_Boy69',
             'fatFlyingSheep3|105189373',
             '[Ff]dpdablizzard998',
+            'Femdom Bondage Gallery',
             'feranoiz',
             'FireEggs',
             'Firefly Lover',
@@ -577,6 +581,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'huanai',
             'Hurry-Workshop/Anivoice',
             'HXG1023|62362581',
+            'Hyiumi AI',
             'Hypno Girls',
             'IbaneX',
             'IceZ|109454860',
@@ -874,6 +879,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ntrzelda',
             'NTRの村',
             'Nurennuren|ヌレンヌレン',
+            'nyangboob',
             '[Nn]yx[Ww]orks',
             'O\\.o',
             'OBEY|1730820',
@@ -899,12 +905,14 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Otonashi Ai',
             'ownedbyagiantess',
             '^PafuPafu - |\\[PafuPafu\\(H Jam\\)\\]',
+            'Pamavta',
             'Panic [Aa]merica',
             'pantyless',
             'Paperhero',
             'Parmee',
             'PartyProject145',
             'Perorobin|52117493',
+            'pexon@AI|110782546',
             'Pheus',
             'PhibsAI|73394020',
             'PICPONG',
@@ -991,7 +999,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Rqxy|6156788',
             'RUIMA',
             'RUKA@NTRに身を焦がし者',
-            'Rule34(?:Lab| Diffusion)',
+            '[Rr]ule34',
             'Ryan4s\\(93340616\\)',
             'ryooo',
             'RyzaLin',
@@ -1096,6 +1104,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'StudioSR',
             'stuffedpepper',
             'Stupixi v',
+            'stykg',
             'subcharalove',
             '[Ss]ub [Kk]ing',
             'SuccubAIArt',
@@ -1130,6 +1139,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'TheMaker___',
             'Therranolleo',
             'ThickerAI',
+            'ThuwaGTS',
             ' Thx |\\[Thx\\]|120662529',
             'Tiger87|タイガー87',
             'Tillian',
@@ -1191,6 +1201,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'VoidMen',
             'Vrty',
             'VvtD',
+            'wagalanai',
             'Wagamama\\!\\!\\!',
             'Waifu Perfection AI',
             'Waifu_universe_77',
@@ -1573,6 +1584,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '莲蓉蛋黄月饼|14265473',
             '丶黑谷雨泽',
             '종이구름|39688127',
+            '버모벋',
             'Евгений',
             '[Ff]utanari',
             '[Cc]ollection'
