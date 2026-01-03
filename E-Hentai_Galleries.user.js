@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2026-01-03T12:22:00
+// @version      2026-01-03T18:40:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -27,6 +27,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '_silver_bunny_',
             '#\\d\\d-(?:0[1-9]|1[012])-(?:0[1-9]|[12]\\d|3[01])｜Miyuka',
             '\\.zZ|99475684',
+            '08547',
             '810034', //Noi
             '1697123', //akiba
             '1784055', //sue
@@ -146,6 +147,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Adramahlihk',
             'AELLOW',
             'Aesaro14',
+            'AetherMind AI',
             'agargreen',
             '^aHero - |\\[aHero\\]',
             'Ahoge_Rua',
@@ -290,7 +292,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Asphyxia',
             'AsukaiArts',
             'Asunai',
-            'at-sa-kon13',
+            'at-sa-kon|AT-SA-KON',
             'atorieHJ',
             'AtticArt',
             'ATYPO',
@@ -393,7 +395,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'cMonster',
             'Coco\\(Tama\\)|90865766',
             'CodeMistake',
-            'Coiefen',
+            '[Cc]oiefen',
             'Coldenic',
             'colox76',
             'Comboappofrice',
@@ -452,6 +454,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'DJ Su',
             'DKdraven|63847494',
             'DM·ZZZ_2\\.1\\.0',
+            'Dmon',
             '[Dd]onya',
             'Dr\\.Bon',
             'DreamcoreArt',
@@ -1209,6 +1212,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Sexy AI babes',
             'Sgrodolo',
             'ShadowJB',
+            'ShanalotteAI',
             'Sharinel',
             'Sheldon NTR',
             'Shexyo',
