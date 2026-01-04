@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2026-01-03T18:40:00
+// @version      2026-01-04T12:27:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -27,6 +27,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '_silver_bunny_',
             '#\\d\\d-(?:0[1-9]|1[012])-(?:0[1-9]|[12]\\d|3[01])｜Miyuka',
             '\\.zZ|99475684',
+            '9029',
             '08547',
             '810034', //Noi
             '1697123', //akiba
@@ -37,6 +38,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '2987812', //愛猫
             '3193946', //zzzzz
             '3218096', //tt
+            '3318531', //Mani
             '3360208', //カムカム＠AQUADIA
             '4080750', //LR
             '4525768', //ToKi
@@ -102,6 +104,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '109983791|111284084', //METEOR
             '110126394', //ミント
             '110509492', //もうそう
+            '110781350', //ジャガー/Jaguar
             '111279032', //黑白
             '112365307', //eset
             '113736534', //ダークネス
@@ -115,6 +118,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '118293971', //yuno
             '118366404', //Nina
             '119846491', //yumekui
+            '120289532', //PeRo
             '121043961', //haruto
             '121422569', //ryona
             '137773217', //asastte
@@ -124,8 +128,10 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '18animegirls',
             '1ThemainMan1',
             '2_shark',
+            '22kaikuusho',
             '31245346|103148575',
             '3other 3ature|118244047',
+            '420k ryujin',
             '11-22',
             '77bot',
             '77Perry77',
@@ -133,6 +139,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'A room where a married woman smells|人妻が薫る部屋',
             'a0iisa|A0IISA',
             'AAiAi',
+            'Abashi|256752',
             'abogadoman|あぼがどマン|119064539',
             'AbramovAI|117582837',
             'Abscord_Orvus',
@@ -287,12 +294,13 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Asnagi_',
             'asastte|138085154',
             'ASDFG-did-lover',
+            'ASh Chan',
             'Ash30102223',
             '[Aa]simpleningen',
             'Asphyxia',
             'AsukaiArts',
             'Asunai',
-            'at-sa-kon|AT-SA-KON',
+            '[Aa]t-sa-kon|AT-SA-KON',
             'atorieHJ',
             'AtticArt',
             'ATYPO',
@@ -305,6 +313,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'AylisNyang',
             'ayxgirl|Ayx Girl',
             'Azanne',
+            'Azata',
             'Azurline',
             'Azusa_Yui',
             'AzzAI',
@@ -319,6 +328,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'BBoing',
             'BBstaff|BBStaff',
             'Beautiful Girl Gets Pregnant by a Creepy Man|美少女がキモ男に妊娠させられる',
+            'Belliora',
             'Belly Art',
             'Benj17',
             'BGM ∞',
@@ -336,6 +346,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'bleachmama',
             'Bleep',
             'Bloobill',
+            'Blue @ AI|ブルー@AI|32614522',
             'Blue Forest',
             'Blue Rabbit',
             'BlueBird',
@@ -361,6 +372,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'BrokenBismuth',
             'Brynn',
             'BubbleTeeXL',
+            'bubya',
             'buchile|118035672',
             'BustyBunz',
             'ButterStudio',
@@ -377,6 +389,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Chickenbeautiful',
             'ChiDanta|99211223',
             'chiko_',
+            'chirol|107477663',
             'Chocopizza|ChocoPizza',
             'chongsheng|110608626',
             'CHORO0|106227038',
@@ -427,6 +440,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '[Dd]aidouji(?:PV|pv)',
             'DAiMAi',
             'Dai(?:roku|6)banchi|第6番地',
+            'Dalmart8',
             'Damz',
             'Dannia',
             'DarkArthuria',
@@ -504,6 +518,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Emma Liam',
             '^Enaki - |\\[Enaki\\]',
             'Enjisd',
+            'Enjoyment521',
             'ennger84',
             '^Enya - |\\[Enya\\]',
             'EOA|71265647',
@@ -694,6 +709,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'J \\| J_Anime Base',
             'Jackchief',
             'JAPAIN|じゃぺいん',
+            'Jarentr',
             'JazkE',
             'jerry1805',
             'JessicaRae',
@@ -731,6 +747,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'kawaani',
             'Kawa[Gg]awa|117534671',
             'ケイ/Kei|100909',
+            'Kenzenmaru|健全丸|19336360',
             'keoly',
             'Khris AI',
             'Kichiku-Sensei',
@@ -760,6 +777,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'kokoyone|102034245',
             'Konoha Waifus',
             'Kord A[Ii]',
+            'Korumo|コルモ|120294262',
             'Koryax',
             'kospeko',
             'Kouji 光司',
@@ -778,6 +796,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Kyonkanie',
             'L Kuma Love',
             'La Creatura',
+            'lactone',
             'Laino Airt',
             'Lam Vex',
             'LAMEAI',
@@ -855,6 +874,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'MarnieDark',
             'Martinez',
             'Marukane Teikoku|丸金帝国',
+            'mashima_arata|6470399',
             'Matcha Muse',
             'Mater-K',
             'Matthew',
@@ -873,6 +893,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Melocotón|107679485',
             'Menthol',
             'Meowu laha',
+            'Merugou|めるごー|112948658',
             'MessingwithAI',
             'Mesubutagoya|雌豚小屋',
             'Meteor (?:0[1-9]|1[012])\\.(?:0[1-9]|[12]\\d|3[01]) ',
@@ -993,8 +1014,10 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'NFFA|nffa',
             'niauno|16691530',
             'Nightfall',
+            'Nikutama Udon|肉たまうどん|45429161',
             'ningya|100763134',
             'Ninja Enix',
+            'Ninjin X|にんじんX|12096593',
             'Nixny',
             ' NKO |\\[NKO\\]',
             'Nnhn|29030315',
@@ -1115,6 +1138,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'qqqpppqpqp整合',
             'R-Sthef',
             'Raai',
+            'Rabaanyakki|ラバーニャッキ|1786456',
             '^Ragnarock - |\\[Ragnarock\\]',
             'Rahmat',
             '[Rr]aiden190',
@@ -1302,6 +1326,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'SultrySpark',
             'SunGodManGa',
             'Suoiresnu',
+            'SweetGirl',
             'syafu_(?:AI|ai)',
             's\\.h\\.t|11751692',
             't1muraa',
@@ -1317,6 +1342,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Tbaanime',
             'TCLRealAI',
             'tdn1919',
+            'TEMO day|117788360',
             'TengaWa|24729168',
             'TENJINN|114200002',
             '^tenk ',
@@ -1485,6 +1511,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Yuzuponz \\(Rikka Kai\\)',
             'yygg',
             'Z_F|107669902',
+            'Z-image',
             'zaidxxxart',
             'Zcqrlet',
             'Zdemian',
@@ -1645,6 +1672,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'おなん',
             'お姉さん 【(?:GOLD|SILVER)】',
             '^かーむ ',
+            'かがやきの湯|117612540',
             'かざのはな',
             'かたい棒 Hard Stick',
             'かのめゆら|61218475',
@@ -1659,6 +1687,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'シコリの森',
             '^しとね - |\\[しとね\\]',
             'じゃがいもホクホク北海道',
+            'ジョン・F・万次郎|24590160',
             'スクールパラダイス',
             'すずのき_animeAI',
             'ステーキくん',
@@ -1669,6 +1698,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'だまご屋',
             'たむら/Tamura',
             'だるまん',
+            '^ときわ - |\\[ときわ\\]',
             'トラっち',
             'ドラムカン',
             'ナスポット',
@@ -1715,6 +1745,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'らくだだん',
             'ラブリークラフト',
             'リロイア|118224502',
+            'ろくねこ',
             'ロバいとど',
             'ロリ天敵',
             'わさびまぐろ',
@@ -1786,6 +1817,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '私立 ななつ星中',
             '白い物質',
             '重铸18\\+荣光',
+            '菖蒲に八ツ橋',
             '神圣之杯|98427552',
             '深夜2時のあにまにあ',
             '戦国まのん',
