@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2026-01-07T18:41:00
+// @version      2026-01-08T00:08:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -126,8 +126,10 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '121043961', //haruto
             '121422569', //ryona
             '137773217', //asastte
+            '1-a-dot',
             '10\\^\\-9|102040919',
             '10taclex10tacle',
+            '11-22',
             '18anime_18',
             '18animegirls',
             '1ThemainMan1',
@@ -136,7 +138,6 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '31245346|103148575',
             '3other 3ature|118244047',
             '420k ryujin',
-            '11-22',
             '77bot',
             '77Perry77',
             '7dnc2',
@@ -164,6 +165,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Ahoge_Rua',
             ' Ahy - ',
             'AHY2',
+            'AI [A-Z][a-z]+ [A-Z][a-z]+ # ',
             'Ai Art_Dreamer',
             'AI Ana De Armas',
             'AI Angelina Jolie',
@@ -483,6 +485,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Dexter|德叔',
             'DFsDeep',
             'DiaseePauwel',
+            'Diggy_Talls',
             'Digital Waifu Gallery',
             'Dino@Top|41090148',
             'DioH123',
@@ -540,6 +543,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '^Elmo - |\\[Elmo\\]',
             'Flext',
             'ElfOlive',
+            'Elforme',
             'Elincia_BE',
             'Elkazama_Yumi',
             'Elvoryn',
@@ -809,6 +813,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Kitsune \\| NSFW ArtWorks',
             'KKKBBB|102726831',
             '^kkoi - |\\[kkoi\\]|[（\\(]kkoi[）\\)]|KKOI',
+            'KKU',
             'klmn',
             'Klyris',
             'KM KingMaster|KM \\| KingMaster',
@@ -900,6 +905,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'luna_?ink|LUNA_INK',
             'LunAra',
             'Lunarith2|116520044',
+            'LushPeach',
             'LustBild',
             'LustStudio Artwork',
             'Lusty ?Nymphi',
@@ -1405,6 +1411,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'tabakowayame',
             'TAIL-LOVERS',
             'Taillove',
+            'takakiyo|8770305',
             'Takane ?NTR',
             'Tamagochiiii',
             'Tanetsuke Shuppan',
@@ -1798,6 +1805,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ニラまんじゅう|18521202',
             'ニンニクましお',
             'ぬきのすけ',
+            'ねっっとりネトリーニョ|117689079',
             'ねとれや',
             'ねろねろアンダーグラウンド',
             '^のり子 - |\\[のり子\\]',
@@ -1824,6 +1832,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'みみっくぼっくす',
             'みやもりちゃん\\(Miyamori\\)',
             'みるふあい',
+            'むほー地帯',
             'めもり店',
             'めろんアイスちゃん寝る',
             'メロンパン/Melonpan',
@@ -1875,6 +1884,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '鬼见愁',
             '神奇牛子',
             '巨乳加大分',
+            '渔霁抚伞|119244970',
             '吟醸コーク',
             '禁断のアルバム',
             '空小孩化',
@@ -1968,6 +1978,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '与党野党|50519969',
             '洛明',
             '落花入梦',
+            '陸の孤島亭',
             '龍山 T-YAMA|215154',
             '凛/Rin|1183482',
             '沐子Forlumi|97838679',
