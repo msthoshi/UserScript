@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2026-01-08T17:57:00
+// @version      2026-01-08T21:18:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -404,6 +404,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'CaffeinAIスタジオ',
             'CalmAndHappy',
             'CatalystAI',
+            'Catberryw',
             'CCCraftA[Ii]|CC Craft A[Ii]',
             'Celistria',
             'Centie',
@@ -819,6 +820,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'KiriiAI',
             'Kisara146',
             'KisenAI',
+            'Kisou',
             'Kitsune \\| NSFW ArtWorks',
             'KKKBBB|102726831',
             '^kkoi - |\\[kkoi\\]|[（\\(]kkoi[）\\)]|KKOI',
