@@ -11,6 +11,8 @@ https://github.com/msthoshi/UserScript/raw/main/Narou.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Chevereto.user.js
 
+https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_IMGPV.user.js
+
 https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_Javbee.user.js
 
 https://github.com/msthoshi/UserScript/raw/main/Redirect_to_Image_from_firm.user.js
