@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Yahoo! Japan Autoplay Stop
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2025-07-05
+// @version      2026-01-24T11:41:00
 // @description  Yahoo! Japan Autoplay Stop
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -9,6 +9,7 @@
 // @updateURL    https://github.com/msthoshi/UserScript/raw/main/Yahoo!_Japan_Autoplay_Stop.user.js
 // @downloadURL  https://github.com/msthoshi/UserScript/raw/main/Yahoo!_Japan_Autoplay_Stop.user.js
 // @match        https://s.yimg.jp/images/yvpub/player/vamos/pc/latest/player.html?*
+// @match        https://s.yimg.jp/images/yvpub/player/vamos/ply/liv/pc/player.html?*
 // @icon         https://s.yimg.jp/favicon.ico
 // @grant        none
 // ==/UserScript==
