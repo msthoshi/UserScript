@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         E-Hentai Galleries
 // @namespace    https://github.com/msthoshi/UserScript
-// @version      2026-01-14T23:53:00
+// @version      2026-02-28T21:28:00
 // @description  E-Hentai Galleries
 // @author       Yuyushiki
 // @homepageURL  https://github.com/msthoshi/UserScript
@@ -436,6 +436,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'bubya',
             'buchile|118035672',
             'Bunilew',
+            'Burn333',
             'BustyBunz',
             'butterlyghast',
             'ButterStudio',
@@ -739,7 +740,6 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '[Hh]ajily',
             'hakutoukan',
             'Half-Ai Creator',
-            'Half[Ll]ove',
             'Hammer Yarou|ハンマー野郎|112838949',
             'Hammiai',
             'Hana Sama',
@@ -1161,6 +1161,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Myaicrush',
             'Myanu',
             'MylieAI',
+            'Myuto',
             'N_master|2994751',
             'N1HIL|120950037',
             'N1KSM4N',
@@ -1199,6 +1200,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Neronero Land|subnero|ねろねろランド',
             'Neroshiboshi',
             'neruton',
+            'nessfm',
             'Netorare-san',
             'Netorareru tamashigino itteki|寝取られるタマシギの一滴',
             'Neural Nymphs',
@@ -1248,6 +1250,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'Oatmealdood',
             'OBEY|1730820',
             'Obser',
+            'Ocha no ko',
             'ochiva',
             'Ogurifo',
             'Oh[_ ][Yy]uae',
@@ -1574,8 +1577,10 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             't1muraa',
             'ta457',
             'tabakowayame',
+            'tachibana ai',
             'TAIL-LOVERS',
             'Taillove',
+            'Taka Hawk',
             'takakiyo|8770305',
             'Takane ?NTR',
             'Tamagochiiii',
@@ -1671,6 +1676,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'VAMA',
             'VANEON|730086',
             'Vanitas[_ ]AI',
+            'Vanity',
             'VantaWaifu|VANTAWAIFU',
             'Vaporeeonite',
             'Vchan',
@@ -1950,6 +1956,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ヴィのハンター|19447317',
             'ウララ先生',
             '^ウルフ - |\\[ウルフ\\]',
+            'えたぷま',
             'えちえちイラスト絵師',
             'えむすたでぃお',
             'エロうさぎ',
@@ -2043,6 +2050,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             'ぺるの台所',
             'ほめのび|105380036',
             'まぁたん8888',
+            'マイネームルナ',
             'マッツォ|121747230',
             'マニアック太郎',
             'マルテンサイト変態|5738149',
@@ -2190,6 +2198,7 @@ if ((/^https?:\/\/e-hentai\.org\/(?:\?f_.+)?$/).test(document.URL)){
             '绯月之巢',
             '肘击',
             '菲尔蕾蒂三号机',
+            '貓貓',
             '风萤月|116577275',
             '不良牛',
             '暴雨下的帆船',
